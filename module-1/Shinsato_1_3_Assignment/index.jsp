@@ -1,4 +1,6 @@
 <%-- Miles Shinsato, 10/24/2026, CSD430-306J_2273_DD, Assignment 1.3 --%>
+<%-- This is a JSP file that has Java cod and HTML tags to ensure my file conforms to Java, JSP, and HTML coding standards --%>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
