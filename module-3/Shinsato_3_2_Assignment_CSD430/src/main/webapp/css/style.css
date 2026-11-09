@@ -1,0 +1,168 @@
+/* Miles Shinsato, 11/08/2026, CSD430-306J_2273_DD, Assignment 3.2 */
+
+/* This style.css file is to style the page and the table for my Module 3.2 assignment */
+
+    /* Overall page appearance */
+body {
+    /* Uses Arial for the text */
+    font-family: Arial, sans-serif;
+
+    /* Dark background for the page */
+    background-color: #171717;
+
+    /* Makes the text easy to read against the dark background */
+    color: #f5f5f5;
+
+    /* Removes the browser's default margin */
+    margin: 0;
+
+    /* Gives the page some breathing room */
+    padding: 30px;
+}
+
+/* Main area that holds the page content */
+.container {
+    /* Keeps the content from stretching too far */
+    max-width: 800px;
+
+    /* Centers the container on the page */
+    margin: 0 auto;
+
+    /* Adds room around the content */
+    padding: 30px;
+
+    /* Slightly lighter background than the page */
+    background-color: #292929;
+
+    /* Rounds the edges of the container */
+    border-radius: 10px;
+}
+
+/* Page titles */
+h1, h2 {
+    /* Uses red for the headings */
+    color: #A62D2D;
+
+    /* Centers the headings */
+    text-align: center;
+}
+
+/* Form labels */
+label {
+    /* Adds a little space above and below each label */
+    margin-top: 15px;
+    margin-bottom: 5px;
+
+    /* Puts each label on its own line */
+    display: block;
+}
+
+/* Text fields, dropdowns, and text areas */
+input, select, textarea {
+    /* Makes the fields use the full available width */
+    width: 100%;
+
+    /* Adds room inside the fields */
+    padding: 10px;
+
+    /* Prevents padding from making fields wider than expected */
+    box-sizing: border-box;
+
+    /* Adds a border around the fields */
+    border: 1px solid #777;
+
+    /* Slightly rounds the field corners */
+    border-radius: 5px;
+
+    /* Light background for the input fields */
+    background-color: #f5f5f5;
+
+    /* Dark text inside the fields */
+    color: #222;
+}
+
+/* Keeps radio buttons from stretching across the page */
+input[type="radio"] {
+    width: auto;
+    margin: 0 3px 0 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+/* Keeps the radio button labels next to their buttons */
+input[type="radio"] + label {
+    display: inline;
+    margin: 0 10px 0 0;
+}
+
+/* Submit button styling */
+button, input[type="submit"] {
+    /* Adds space above the button */
+    margin-top: 20px;
+
+    /* Makes the button easier to click */
+    padding: 12px;
+
+    /* Uses the same red as the headings */
+    background-color: #A62D2D;
+
+    /* Dark text on the button */
+    color: #171717;
+
+    /* Removes the default border */
+    border: none;
+
+    /* Rounds the button corners */
+    border-radius: 5px;
+
+    /* Shows a pointer when hovering over the button */
+    cursor: pointer;
+
+    /* Makes the button text stand out */
+    font-weight: bold;
+}
+
+/* Button appearance when hovering over it */
+button:hover, input[type="submit"]:hover {
+    /* Changes to a brighter red */
+    background-color: #E65757;
+}
+
+/* Results table */
+table {
+    /* Uses the full width of the container */
+    width: 100%;
+
+    /* Keeps table borders from doubling up */
+    border-collapse: collapse;
+
+    /* Adds space above the table */
+    margin-top: 20px;
+}
+
+/* Table headers and regular cells */
+th, td {
+    /* Adds space inside each cell */
+    padding: 12px;
+
+    /* Separates the cells with borders */
+    border: 1px solid #777;
+
+    /* Keeps the text aligned to the left */
+    text-align: left;
+}
+
+/* Table header appearance */
+th {
+    /* Red background for the column headings */
+    background-color: #A62D2D;
+
+    /* Dark text to contrast with the red */
+    color: #171717;
+}
+
+/* Regular table cells */
+td {
+    /* Slightly lighter gray than the container */
+    background-color: #383838;
+}
