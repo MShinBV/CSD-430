@@ -1,0 +1,54 @@
+/* Miles Shinsato, 10/30/2026, CSD430-306J_2273_DD, Assignment 2.2 */
+
+/* This style.css file is to style the page and the table for my Module 2.2 assignment */
+
+/* Setting the overall appearance of the page, the font, background, and color */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C0E9FC;
+    color: #333333;
+    margin: 40px;
+}
+
+/* Centering the text throughout the page */
+h1, h2, p {
+    text-align: center;
+}
+
+/* Style the main heading with a specific color to help with visibility */
+h1 {
+    color: #243B55;
+}
+
+/* Setting the movie table fill the available width */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #A5AEC4;
+    margin-top: 20px;
+    color: #2A3766
+}
+
+/* Style the table headings and data cells */
+th, td {
+    border: 2px solid #000000;
+    padding: 12px;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+/* Distinguish the column headings and specifying font color for visibility */
+th {
+    background-color: #243B55;
+    color: white;
+}
+
+/* Alternate the background color of table rows */
+tbody tr:nth-child(even) {
+    background-color: #BDC7DE;
+}
+
+/* Highlight a row when the mouse hovers over it */
+tbody tr:hover {
+    background-color: #d5e4f0;
+}
